@@ -58,7 +58,7 @@ fun main(args: Array<String>) {
     println("YAHTZEE! It took ${fiveDiceTotalRoll(newDice)} rolls")
 }
 
-// 5 tane zar oluşturulcak 5 tane zarın sonucu aynı olana kadar zarlar atılcak aynı olunca kaç kere zar atıldığı bulunucak
+// 5 dice will be formed. The dice will be rolled until the result of 5 dice is the same. When they are the same, it will be found how many dice were rolled
 fun fiveDiceTotalRoll(dice:Dice): Int {
 
     var firstRollDices = ArrayList<Int>()
